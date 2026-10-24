@@ -2,8 +2,8 @@
 
 **Name:** Sai Rithwik Reddy Chirra  
 **GitHub:** @imrithwik1908  
-**Repository:** My private copy of `ARC-ASU/fog-of-war-project`  
-**Staff access:** Invite `@3rdAT` and `@Slash0BZ` (confirm on GitHub).
+**Repository:** Private copy of `ARC-ASU/fog-of-war-project`  
+**Course staff:** `@3rdAT`, `@Slash0BZ`
 
 ## 1. Starting point
 
