@@ -16,4 +16,4 @@ python -m fow.validate submission
 
 **Next steps:** Confirm staff access, run the baseline, note its local Elo and match results, and record the commit ID, seed, commands, and runtime for each experiment.
 
-**AI use:** ChatGPT assisted with the wording and structure of the initial project documents; see `AI_USE.md`.
+**AI use:** ChatGPT assisted with the wording of the initial project documents; see `AI_USE.md`.
