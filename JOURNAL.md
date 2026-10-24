@@ -1,19 +1,19 @@
-# Project journal
+# Project Journal
 
-One entry per experiment or decision, newest at the bottom. Write it as you go, not at the end.
-This is where the evidence for your grade lives (see docs/GRADING.md).
+## October 23, 2026 — Initial plan
 
-## Template
+**Goal:** Set up the starter project and establish a baseline before changing the model.
 
-### YYYY-MM-DD: short title
-- **Question / hypothesis:** what you expect and why.
-- **Commit:** the commit hash the experiment ran at, and what you changed.
-- **Setup:** data, model size, training compute (GPU-hours), games played for evaluation.
-- **Result:** numbers with intervals (for example `fow.arena` ratings), plus anything you saw in games.
-- **Decision:** what you will do next, and why.
-- **AI help:** what an assistant did for this entry, if anything.
+**What I did:** Created a private copy of the course repository and drafted an initial plan. My first experiments will focus on better use of visible/last-seen information and more varied training positions.
 
----
+**Baseline status:** Not run yet. I will record results only after running the matches myself.
 
-### 2026-10-__: reproduced the baseline
-- ...
+**Planned commands:**
+```bash
+python -m fow.arena agents/baseline bot:greedy bot:guess-sf-4x500 --games 100
+python -m fow.validate submission
+```
+
+**Next steps:** Confirm staff access, run the baseline, note its local Elo and match results, and record the commit ID, seed, commands, and runtime for each experiment.
+
+**AI use:** ChatGPT assisted with the wording and structure of the initial project documents; see `AI_USE.md`.
